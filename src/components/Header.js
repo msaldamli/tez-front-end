@@ -13,15 +13,15 @@ const Header = () => {
   const [number, setnumber] = useState();
 
   useEffect(() => {
-    const ilanlar = async () => {
-      const parseUser = JSON.parse(user);
-      const user_Id = parseUser._id;
-      // console.log(user_Id);
-      // const number = await numberOfLocations(user_Id);
-      // console.log(number);
-      setnumber(number);
-    };
-    ilanlar();
+    // const ilanlar = async () => {
+    //   const parseUser = JSON.parse(user);
+    //   const user_Id = parseUser._id;
+    //   // console.log(user_Id);
+    //   // const number = await numberOfLocations(user_Id);
+    //   // console.log(number);
+    //   setnumber(number);
+    // };
+    // ilanlar();
   });
 
   // console.log(number);
